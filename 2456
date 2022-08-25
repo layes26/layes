@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main ()
+
+{
+    int a[5],i;
+    for (i=0;i<5;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    if(a[0]<a[1]&&a[1]<a[2]&&a[2]<a[3]&&a[3]<a[4])
+        printf("C\n");
+    else if(a[0]>a[1]&&a[1]>a[2]&&a[2]>a[3]&&a[3]>a[4])
+        printf("D\n");
+    else
+        printf("N\n");
+    return 0;
+}
