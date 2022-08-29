@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main ()
+{
+  int x,a,b;
+  char p;
+  scanf("%d",&x);
+  scanf("%d %c %d",&a,&p,&b);
+  if (p=='+')
+        if(a+b<=x)
+        printf("OK\n");
+        else
+        printf("OVERFLOW\n");
+  else
+        if(a*b<=x)
+        printf("OK\n");
+        else
+        printf("OVERFLOW\n");
+
+
+    return 0;
+
+}
