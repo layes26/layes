@@ -1,0 +1,17 @@
+Ls Lisan
+#include<stdio.h>
+int main(){
+    int n,i;
+    while(scanf("%d",&n)!=EOF){
+        float a[n];
+        for(i=0;i<n;i++){
+            scanf("%f",&a[i]);
+        }
+        for(i=1;i<n;i++){
+            if(a[0]>a[i])
+                a[0]=a[i];
+        }
+        printf("%.2f\n",a[0]);
+    }
+    return 0;
+}
