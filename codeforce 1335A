@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+
+    int  t,i,j;
+    scanf("%d",&t);
+    for(i=1;i<=t;++i){
+        long  long  int n;
+        scanf("%lld",&n);
+            printf("%lld\n",(n-1)/2);
+    }
+
+return 0;
+}
